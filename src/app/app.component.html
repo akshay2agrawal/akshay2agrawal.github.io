@@ -1,0 +1,29 @@
+<header class="nav">
+  <nav class="wrap nav-inner" aria-label="Main">
+    <a class="mark" href="#top">AA<span class="cursor">_</span></a>
+    <div class="nav-links">
+      <a href="#experience">experience</a>
+      <a href="#projects">projects</a>
+      <a href="#skills">skills</a>
+      <a href="#education">education</a>
+      <a href="#contact">contact</a>
+      <button
+        type="button"
+        class="theme-toggle"
+        (click)="toggleTheme()"
+        [attr.aria-label]="'Switch to ' + (theme() === 'dark' ? 'light' : 'dark') + ' theme'"
+      >
+        {{ theme() === 'dark' ? '--light' : '--dark' }}
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <app-hero />
+  <app-experience />
+  <app-projects />
+  <app-skills />
+  <app-education />
+  <app-contact />
+</main>
