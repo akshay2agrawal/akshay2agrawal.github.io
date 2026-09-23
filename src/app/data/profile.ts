@@ -41,7 +41,7 @@ export const PROFILE = {
   role: 'Full-Stack Software Developer',
   tagline:
     'I build public-sector platforms and AI assistants — Angular and Vaadin in the browser, Spring Boot and Node.js behind it, and everything between the UI and the message queue.',
-  location: 'Kiel, Germany',
+  location: 'Frankfurt am Main, Germany',
   education: 'MSc Computer Science',
   github: 'https://github.com/akshay2agrawal',
   linkedin: 'https://www.linkedin.com/in/akshay2agrawal/',
@@ -84,7 +84,7 @@ export const EXPERIENCE_GROUPS: ExperienceGroup[] = [
         color: 'var(--b-olive)',
         title: 'Waste-Management Customer App & Portal',
         context:
-          'Multi-tenant customer portal and iOS/Android apps for a municipal-services provider, white-labelled for regional utilities. Started here as an intern.',
+          'Multi-tenant customer portal and iOS/Android apps for a municipal-services provider, white-labelled for regional utilities.',
         period: 'Oct 2024 — Jan 2025 · Oct 2025 — May 2026',
         current: false,
         stack: ['Angular', 'Ionic / Capacitor', 'Node.js', 'tRPC', 'PostgreSQL', 'pgvector', 'LangChain', 'Cypress'],
@@ -258,7 +258,7 @@ export const SKILL_GROUPS: SkillGroup[] = [
   },
   {
     label: 'Spoken',
-    skills: ['English (fluent)', 'German (intermediate, B1/B2)', 'Hindi (native)'],
+    skills: ['English (fluent)', 'German (B1)', 'Hindi (native)'],
   },
 ];
 
